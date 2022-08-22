@@ -167,11 +167,11 @@ nav ul li a {
 }
 
 .contact-section {
-    background-color:var(--blanco)
+    background-color:var(--blanco);
 }
 
 .contact-section div {
-    background-color: rgba(0, 0, 0, 0.2);
+    background-color: rgba(0, 0, 0, 0.1);
     padding: 1rem;
 }
 

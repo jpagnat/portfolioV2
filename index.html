@@ -24,22 +24,23 @@
         <ul>
           <li><a href="./index.html">Home</a></li>
           <li><a href="#work">Work</a></li>
-          <li><a href="">About</a></li>
-          <li><a href="#contact-form">Contact</a></li>
+          <li><a href="#contactame">Contact</a></li>
         </ul>
       </nav>
 
       <div class="portada">
         <h1>Front Developer</h1>
         <p>
-          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laudantium
-          fuga animi recusandae, ipsum voluptatum tempora iure dolor dignissimos
-          reiciendis totam iusto alias officia velit vel excepturi eveniet? Hic,
-          ad nesciunt.
+          Soy una persona entusiasta, con ganas de aprender y crecer tanto
+          personal como profesionalmente. En estos ultimos años empece a sumar
+          conocimiento en diferentes tecnologias con el objetivo de poder
+          insertarme laboralmente en este rubro. Aqui te resumo un poco mi vida
+          laboral
         </p>
         <div class="portada-btn">
-          <button class="btn work-btn">View Work</button>
-          <button class="btn about-btn">About Me</button>
+          <a href="./assets/JulianPagnatCV.pdf" download="JulianPagnatCV.pdf">
+            <button class="btn about-btn">Download Resume</button>
+          </a>
         </div>
       </div>
     </header>
@@ -77,30 +78,52 @@
         </div>
       </section>
 
-      <section class="contact-section">
+      <section class="contact-section" id="contactame">
         <div class="subheader">
           <p class="p-cursive">Like What You See?</p>
           <h2 class="title-secondary">Trabajemos Juntos!</h2>
-          <button class="btn contact-btn">Contactame</button>
+          <button class="btn contact-btn" id="btn-ver">Contactame</button>
         </div>
       </section>
     </main>
 
-    <div class="contact-container" id="contact-form">
+    <div
+      class="contact-container ocultar animate_animated animate__bounceInDown"
+      id="contact-form"
+    >
       <div class="form-contact">
         <h3 class="p-cursive">Contact Form</h3>
-        <form action="">
+        <form action="https://formspree.io/f/xqkjaapb" method="POST" id="form">
           <div>
-            <label for="">Full Name*</label>
-            <input type="text" />
+            <label for="name">Full Name*</label>
+            <input
+              type="text"
+              name="name"
+              id="name"
+              placeholder="Ingresa tu nombre completo"
+              required
+            />
           </div>
           <div>
-            <label for="">Email*</label>
-            <input type="email" />
+            <label for="email">Email*</label>
+            <input
+              type="email"
+              name="email"
+              id="email"
+              placeholder="Ingresa tu correo electronico"
+              required
+            />
           </div>
           <div>
-            <label for="">Comments*</label>
-            <textarea cols="30" rows="5"></textarea>
+            <label for="message">Comments*</label>
+            <textarea
+              name="message"
+              id="message"
+              placeholder="Dejame un mensaje!"
+              cols="30"
+              rows="5"
+              required
+            ></textarea>
           </div>
           <button class="btn contact-btn" type="submit">Send</button>
         </form>
@@ -167,5 +190,6 @@
       </div>
     </footer>
     <script src="./js/cards.js"></script>
+    <script src="./js/contact.js"></script>
   </body>
 </html>

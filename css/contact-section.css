@@ -4,6 +4,10 @@
     background-color: var(--blanco);
 }
 
+.ocultar {
+    display: none;
+}
+
 .contact-container i {
     color: var(--font-color-secondary);
     font-size: 1.5rem;
