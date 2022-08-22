@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./css/style.css" />
+    <link rel="stylesheet" href="./css/btn-style.css" />
+    <link rel="stylesheet" href="./css/card.css" />
+    <link rel="stylesheet" href="./css/contact-section.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css"
+      integrity="sha512-1sCRPdkRXhBV2PBLUdRb4tMg1w2YPf37qatUFeS7zlBy7jJI8Lf4VHwWfZZfpXtYSLy85pkm9GaYVYMfw5BC1A=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <title>Julian Pagnat | Dev</title>
+  </head>
+  <body>
+    <header>
+      <nav>
+        <img src="./img/logo.png" alt="logo" class="logo" />
+        <ul>
+          <li><a href="./index.html">Home</a></li>
+          <li><a href="#work">Work</a></li>
+          <li><a href="">About</a></li>
+          <li><a href="#contact-form">Contact</a></li>
+        </ul>
+      </nav>
+
+      <div class="portada">
+        <h1>Front Developer</h1>
+        <p>
+          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laudantium
+          fuga animi recusandae, ipsum voluptatum tempora iure dolor dignissimos
+          reiciendis totam iusto alias officia velit vel excepturi eveniet? Hic,
+          ad nesciunt.
+        </p>
+        <div class="portada-btn">
+          <button class="btn work-btn">View Work</button>
+          <button class="btn about-btn">About Me</button>
+        </div>
+      </div>
+    </header>
+
+    <main>
+      <section id="work" class="work-section">
+        <div class="subheader">
+          <p class="p-cursive">Selected Work</p>
+          <h2 class="title-secondary">Case Studies</h2>
+        </div>
+
+        <div class="card-container" id="cardContainer"></div>
+      </section>
+
+      <section class="skills-section">
+        <div class="subheader">
+          <p class="p-cursive">Skills</p>
+          <h2 class="title-secondary ts-color">Tecnologias Trabajadas</h2>
+          <p class="p-skills">
+            Estas son algunas de las tecnologias con las que he trabajado en mis
+            casos de estudio. Espero ir perfeccionando las mismas y poder sumar
+            nuevas en el futuro
+          </p>
+        </div>
+
+        <div class="skill-icon">
+          <i class="fa-brands fa-html5"></i>
+          <i class="fa-brands fa-css3-alt"></i>
+          <i class="fa-brands fa-js"></i>
+          <i class="fa-brands fa-react"></i>
+          <i class="fa-brands fa-java"></i>
+          <i class="fa-brands fa-bootstrap"></i>
+          <i class="fa-brands fa-sass"></i>
+          <i class="fa-brands fa-git-alt"></i>
+        </div>
+      </section>
+
+      <section class="contact-section">
+        <div class="subheader">
+          <p class="p-cursive">Like What You See?</p>
+          <h2 class="title-secondary">Trabajemos Juntos!</h2>
+          <button class="btn contact-btn">Contactame</button>
+        </div>
+      </section>
+    </main>
+
+    <div class="contact-container" id="contact-form">
+      <div class="form-contact">
+        <h3 class="p-cursive">Contact Form</h3>
+        <form action="">
+          <div>
+            <label for="">Full Name*</label>
+            <input type="text" />
+          </div>
+          <div>
+            <label for="">Email*</label>
+            <input type="email" />
+          </div>
+          <div>
+            <label for="">Comments*</label>
+            <textarea cols="30" rows="5"></textarea>
+          </div>
+          <button class="btn contact-btn" type="submit">Send</button>
+        </form>
+      </div>
+
+      <div class="social-contact">
+        <h3 class="p-cursive">Details</h3>
+        <div class="information-contact">
+          <h4>Contact Information</h4>
+          <div>
+            <i class="fa-solid fa-envelope"></i>
+            <a href="mailto:pagnat.jm@gmail.com">pagnat.jm@gmail.com</a>
+          </div>
+          <div>
+            <i class="fa-solid fa-phone"></i>
+            <a href="tel:+5491165850999">+54 911 6585 0999</a>
+          </div>
+        </div>
+
+        <div class="redes-sociales">
+          <h4>Socials</h4>
+          <div>
+            <i class="fa-brands fa-instagram"></i>
+            <a href="https://www.instagram.com/julipagnat/" target="_blank"
+              >Instagram</a
+            >
+          </div>
+          <div>
+            <i class="fa-brands fa-linkedin"></i>
+            <a href="https://www.linkedin.com/in/julianpagnat/" target="_blank"
+              >Linkedin</a
+            >
+          </div>
+          <div>
+            <i class="fa-brands fa-square-github"></i>
+            <a href="https://github.com/jpagnat" target="_blank">GitHub</a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <footer>
+      <div class="header-footer">
+        <img src="./img/logo.png" alt="logo" class="logo" />
+        <p class="p-cursive">Julian Pagnat</p>
+        <p class="p-description">
+          Ante cualquier inquietud no dudes en contactarme
+        </p>
+        <p class="p-contact"><span>E:</span> pagnat.jm@gmail.com</p>
+        <p class="p-contact"><span>T:</span> +54 911 6585 0999</p>
+        <div class="contact-icons">
+          <a href="https://www.linkedin.com/in/julianpagnat/" target="_blank"
+            ><i class="fa-brands fa-linkedin-in"></i
+          ></a>
+          <a href="https://github.com/jpagnat" target="_blank"
+            ><i class="fa-brands fa-github"></i
+          ></a>
+        </div>
+      </div>
+
+      <div class="footer-bottom">
+        <p>© 2022 - Julian Pagnat - Madrid, Spain</p>
+        <p>julianpagnat.com</p>
+      </div>
+    </footer>
+    <script src="./js/cards.js"></script>
+  </body>
+</html>
