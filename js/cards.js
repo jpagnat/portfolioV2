@@ -1,7 +1,7 @@
 const proyectos = [
   {
     title: "Nur Bier",
-    img: "../img/proyectos/proyecto1.jpg",
+    img: "./img/proyectos/proyecto1.jpg",
     description: "Proyecto Educativo",
     back: "Sitio web responsive realizado como proyecto final del curso de JavaScript.",
     page: "https://jpagnat.github.io/bar-project/",
@@ -10,7 +10,7 @@ const proyectos = [
   },
   {
     title: "Argentina al Mundo",
-    img: "../img/proyectos/proyecto2.png",
+    img: "./img/proyectos/proyecto2.png",
     description: "Proyecto Educativo",
     back: "E-commerce de venta de productos argentinos realizado como proyecto final del curso de React.",
     page: "https://jpagnat.github.io/arg-al-mundo/",
@@ -19,7 +19,7 @@ const proyectos = [
   },
   {
     title: "Portfolio v1 ",
-    img: "../img/proyectos/proyecto3.png",
+    img: "./img/proyectos/proyecto3.png",
     description: "Proyecto Educativo",
     back: "Portfolio personal realizado como proyecto final del curso de Desarrollo Web.",
     page: "https://jpagnat.github.io/portfolio-template/",
@@ -28,7 +28,7 @@ const proyectos = [
   },
   {
     title: "Manage",
-    img: "../img/proyectos/proyecto4.png",
+    img: "./img/proyectos/proyecto4.png",
     description: "Proyecto Educativo",
     back: "Sitio web informativo realizado como proyecto final de la materia Front End I",
     page: "https://jpagnat.github.io/practiceI/",
