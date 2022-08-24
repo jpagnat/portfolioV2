@@ -493,7 +493,7 @@ body {
   html {
     font-size: 8px; }
   header {
-    min-height: auto; }
+    min-height: max-content; }
   .title-secondary {
     text-align: center; }
   .contact-container {
