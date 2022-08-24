@@ -1,0 +1,85 @@
+header {
+    background-color: var(--blanco);
+    min-height: 100vh;
+    min-width: 100vw;
+    box-shadow: -1px 6px 8px -3px rgba(107,101,101,1);
+    -webkit-box-shadow: -1px 6px 8px -3px rgba(107,101,101,1);
+    -moz-box-shadow: -1px 6px 8px -3px rgba(107,101,101,1);
+    nav {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        .logo-container{
+            display: flex;
+            align-items:center;
+            p {
+                font-size: 1.5rem;
+                font-weight: 700;
+            }
+            .logo {
+                width: 8rem;
+                height: 8rem;
+            }
+            .name-container {
+                display: flex;
+                flex-direction: column;
+                border-left: 1px solid var(--font-color);
+                padding-left: 10px;
+                span {
+                    text-align: center;
+                    margin-top: -8px;
+                    color: var(--font-color-secondary);
+                }
+            }
+        }
+        ul {
+            display: flex;
+            list-style: none;
+            margin-right: 16px;
+        }
+        li {
+            font-size: 1.5rem;
+            margin: 5px;
+        }
+        a {
+            text-decoration: none;
+        }
+    }
+    .portada {
+        display: flex;
+        flex-direction: row;
+        .portada-title {
+            display: flex;
+            flex-direction: column;
+            max-width: 60%;
+            h1 {
+                font-size: 4rem;
+                font-weight: 700;
+                margin-left: 8rem;
+                margin-top: 2rem;
+            }
+            p {
+                font-size: 1.5rem;
+                margin-left: 8rem;
+            }
+            .portada-btn {
+                display: flex;
+                margin-left: 8rem;
+                button {
+                    font-size: 1rem;
+                    margin: 1rem;
+                    padding: 1rem;
+                }
+            }
+        }
+        img {
+            position:absolute;
+            right: 0;
+            bottom: 0;
+            width: 25rem;
+            filter: drop-shadow(0 2px 5px rgba(0, 0, 0, 0.8))
+        }
+        
+    }
+}
+
