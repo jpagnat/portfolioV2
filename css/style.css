@@ -156,17 +156,6 @@ button {
 .inner span {
   color: var(--blanco); }
 
-.card-icon {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  padding: 1rem; }
-
-.card-icon i {
-  font-size: 3rem;
-  color: var(--blanco);
-  padding: 2rem; }
-
 .flip-box-header {
   font-size: 34px;
   color: var(--blanco); }
@@ -249,7 +238,7 @@ form div textarea {
 header {
   background-color: var(--blanco);
   min-height: 100vh;
-  min-width: 100vw;
+  min-width: 100%;
   box-shadow: -1px 6px 8px -3px #6b6565;
   -webkit-box-shadow: -1px 6px 8px -3px #6b6565;
   -moz-box-shadow: -1px 6px 8px -3px #6b6565; }
@@ -272,16 +261,16 @@ header {
         border-left: 1px solid var(--font-color);
         padding-left: 10px; }
         header nav .logo-container .name-container span {
-          text-align: center;
-          margin-top: -8px;
+          text-align: left;
+          padding-top: 2px;
           color: var(--font-color-secondary); }
     header nav ul {
       display: flex;
       list-style: none;
-      margin-right: 16px; }
+      padding-right: 16px; }
     header nav li {
       font-size: 1.5rem;
-      margin: 5px; }
+      padding: 5px; }
     header nav a {
       text-decoration: none; }
   header .portada {
@@ -290,18 +279,18 @@ header {
     header .portada .portada-title {
       display: flex;
       flex-direction: column;
-      max-width: 60%; }
+      width: 60%; }
       header .portada .portada-title h1 {
         font-size: 4rem;
         font-weight: 700;
-        margin-left: 8rem;
+        padding-left: 8rem;
         margin-top: 2rem; }
       header .portada .portada-title p {
         font-size: 1.5rem;
-        margin-left: 8rem; }
+        padding-left: 8rem; }
       header .portada .portada-title .portada-btn {
         display: flex;
-        margin-left: 8rem; }
+        padding-left: 8rem; }
         header .portada .portada-title .portada-btn button {
           font-size: 1rem;
           margin: 1rem;
@@ -331,7 +320,8 @@ header {
   justify-content: center; }
 
 .skills-section {
-  background-color: var(--blanco); }
+  background-color: var(--blanco);
+  width: 100%; }
   .skills-section .subheader {
     display: flex;
     flex-direction: column;
@@ -376,7 +366,7 @@ header {
     width: 8rem;
     height: 8rem; }
   .header-footer .p-cursive {
-    margin: 0 0 2rem 0; }
+    margin-bottom: 2rem; }
   .header-footer .p-description {
     color: var(--blanco);
     font-size: 1.5rem; }
@@ -394,7 +384,7 @@ header {
       background-color: var(--font-color);
       border: 0.5px solid rgba(0, 0, 0, 0.2);
       border-radius: 50%;
-      margin: 0.5rem; }
+      padding: 0.5rem; }
       .header-footer .contact-icons a i {
         font-size: 1.5rem;
         color: var(--blanco);
@@ -473,4 +463,8 @@ body {
   .title-secondary {
     text-align: center; }
   .contact-container {
-    padding: 30px; } }
+    padding: 30px; }
+  .portada-title {
+    width: 100%; }
+  .p-description {
+    font-size: 1rem; } }
