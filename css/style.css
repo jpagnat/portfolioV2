@@ -42,12 +42,23 @@
   opacity: 0; }
 
 .contact-btn {
-  background-color: var(--font-color-secondary);
   margin-bottom: 4rem;
-  margin-top: 1rem; }
+  margin-top: 1rem;
+  color: var(--blanco);
+  background-color: var(--font-color-secondary); }
+
+.contact-btn:hover {
+  color: var(--font-color-secondary);
+  background-color: var(--blanco); }
 
 .about-btn {
-  box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px; }
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+  color: var(--blanco);
+  background-color: var(--font-color-secondary); }
+
+.about-btn:hover {
+  color: var(--font-color-secondary);
+  background-color: var(--blanco); }
 
 button {
   position: relative;
@@ -170,11 +181,12 @@ button {
   justify-content: center;
   align-items: center;
   padding: 1rem; }
-
-.card-icon i {
-  font-size: 3rem;
-  color: var(--blanco);
-  padding: 2rem; }
+  .card-icon i {
+    font-size: 3rem;
+    color: var(--blanco);
+    padding: 2rem; }
+  .card-icon i:hover {
+    color: var(--font-color-secondary); }
 
 .contact-section {
   background-color: var(--blanco);
@@ -284,23 +296,26 @@ header {
       padding: 5px; }
     header nav a {
       text-decoration: none; }
+    header nav a:hover {
+      text-decoration: underline;
+      text-decoration-color: var(--font-color-secondary); }
   header .portada {
     display: flex;
     flex-direction: row; }
     header .portada .portada-title {
       display: flex;
       flex-direction: column;
-      width: 60%; }
+      width: 50rem; }
       header .portada .portada-title h1 {
         font-size: 4rem;
         font-weight: 700;
-        padding-left: 8rem; }
+        padding: 0rem 4rem 0 4rem; }
       header .portada .portada-title p {
         font-size: 1.5rem;
-        padding-left: 8rem; }
+        padding: 0rem 4rem 0 4rem; }
       header .portada .portada-title .portada-btn {
         display: flex;
-        padding-left: 8rem; }
+        padding: 0rem 4rem 0 4rem; }
         header .portada .portada-title .portada-btn button {
           font-size: 1rem;
           margin: 1rem;
@@ -365,6 +380,8 @@ header {
       margin: 2rem;
       text-align: center;
       width: 15rem; }
+    .skills-section .skill-icon i:hover {
+      color: var(--font-color-secondary); }
 
 .header-footer {
   display: flex;
@@ -394,11 +411,16 @@ header {
       background-color: var(--font-color);
       border: 0.5px solid rgba(0, 0, 0, 0.2);
       border-radius: 50%;
-      padding: 0.5rem; }
+      padding: 0.5rem;
+      margin: 0.5rem; }
       .header-footer .contact-icons a i {
         font-size: 1.5rem;
         color: var(--blanco);
-        padding: 1rem; }
+        padding: 0.5rem; }
+    .header-footer .contact-icons a:hover {
+      background-color: var(--blanco); }
+      .header-footer .contact-icons a:hover i:hover {
+        color: var(--font-color-secondary); }
 
 .footer-bottom {
   display: flex;
@@ -472,9 +494,10 @@ body {
     text-align: center; }
   .contact-container {
     padding: 30px; }
-  .portada-title {
-    width: 100%; }
   .header-footer {
     padding: 1rem; }
     .header-footer .p-description {
-      font-size: 1.2rem; } }
+      width: 100%;
+      text-align: center; }
+  .card-icon i {
+    font-size: 4rem; } }

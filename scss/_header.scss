@@ -44,6 +44,10 @@ header {
         a {
             text-decoration: none;
         }
+        a:hover {
+            text-decoration: underline;
+            text-decoration-color: var(--font-color-secondary);
+        }
     }
     .portada {
         display: flex;
@@ -51,19 +55,19 @@ header {
         .portada-title {
             display: flex;
             flex-direction: column;
-            width: 60%;
+            width: 50rem;
             h1 {
                 font-size: 4rem;
                 font-weight: 700;
-                padding-left: 8rem;
+                padding: 0rem 4rem 0 4rem;
             }
             p {
                 font-size: 1.5rem;
-                padding-left: 8rem;
+                padding: 0rem 4rem 0 4rem;
             }
             .portada-btn {
                 display: flex;
-                padding-left: 8rem;
+                padding: 0rem 4rem 0 4rem;
                 button {
                     font-size: 1rem;
                     margin: 1rem;

@@ -121,10 +121,12 @@
     justify-content: center; 
     align-items: center; 
     padding: 1rem;
+    i {
+      font-size: 3rem; 
+      color: var(--blanco); 
+      padding: 2rem; 
+    }
+    i:hover {
+      color: var(--font-color-secondary);
+    }
   } 
-  .card-icon i { 
-    font-size: 3rem; 
-    color: var(--blanco); 
-    padding: 2rem; 
-  }
-  
