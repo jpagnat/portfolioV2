@@ -490,6 +490,8 @@ body {
 @media only screen and (max-width: 390px) {
   html {
     font-size: 8px; }
+  header {
+    min-height: auto; }
   .title-secondary {
     text-align: center; }
   .contact-container {
