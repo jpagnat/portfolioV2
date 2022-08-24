@@ -396,7 +396,9 @@ header {
     margin-bottom: 2rem; }
   .header-footer .p-description {
     color: var(--blanco);
-    font-size: 1.5rem; }
+    font-size: 1.5rem;
+    text-align: center;
+    width: 100%; }
   .header-footer .p-contact {
     color: var(--font-color-secondary);
     font-size: 1.2rem;
@@ -499,7 +501,6 @@ body {
   .header-footer {
     padding: 1rem; }
     .header-footer .p-description {
-      width: 100%;
-      text-align: center; }
+      font-size: 1rem; }
   .card-icon i {
     font-size: 4rem; } }
