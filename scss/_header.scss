@@ -1,87 +1,86 @@
 header {
-    background-color: var(--blanco);
-    min-height: 100vh;
-    min-width: 100%;
-    box-shadow: -1px 6px 8px -3px rgba(107,101,101,1);
-    -webkit-box-shadow: -1px 6px 8px -3px rgba(107,101,101,1);
-    -moz-box-shadow: -1px 6px 8px -3px rgba(107,101,101,1);
-    nav {
+  background-color: var(--blanco);
+  min-height: 100vh;
+  min-width: 100%;
+  box-shadow: -1px 6px 8px -3px rgba(107, 101, 101, 1);
+  -webkit-box-shadow: -1px 6px 8px -3px rgba(107, 101, 101, 1);
+  -moz-box-shadow: -1px 6px 8px -3px rgba(107, 101, 101, 1);
+  nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    .logo-container {
+      display: flex;
+      align-items: center;
+      p {
+        font-size: 1.5rem;
+        font-weight: 700;
+      }
+      .logo {
+        width: 8rem;
+        height: 8rem;
+      }
+      .name-container {
         display: flex;
-        justify-content: space-between;
-        align-items: center;
-        .logo-container{
-            display: flex;
-            align-items:center;
-            p {
-                font-size: 1.5rem;
-                font-weight: 700;
-            }
-            .logo {
-                width: 8rem;
-                height: 8rem;
-            }
-            .name-container {
-                display: flex;
-                flex-direction: column;
-                border-left: 1px solid var(--font-color);
-                padding-left: 10px;
-                span {
-                    text-align: left;
-                    padding-top: 2px;
-                    color: var(--font-color-secondary);
-                }
-            }
+        flex-direction: column;
+        border-left: 1px solid var(--font-color);
+        padding-left: 10px;
+        span {
+          text-align: left;
+          padding-top: 2px;
+          color: var(--font-color-secondary);
         }
-        ul {
-            display: flex;
-            list-style: none;
-            padding-right: 16px;
-        }
-        li {
-            font-size: 1.5rem;
-            padding: 5px;
-        }
-        a {
-            text-decoration: none;
-        }
-        a:hover {
-            text-decoration: underline;
-            text-decoration-color: var(--font-color-secondary);
-        }
+      }
     }
-    .portada {
+    ul {
+      display: flex;
+      list-style: none;
+      padding-right: 16px;
+    }
+    li {
+      font-size: 1.5rem;
+      padding: 5px;
+    }
+    a {
+      text-decoration: none;
+    }
+    a:hover {
+      text-decoration: underline;
+      text-decoration-color: var(--font-color-secondary);
+    }
+  }
+  .portada {
+    display: flex;
+    flex-direction: row;
+    .portada-title {
+      display: flex;
+      flex-direction: column;
+      width: 50rem;
+      h1 {
+        font-size: 4rem;
+        font-weight: 700;
+        padding: 0rem 4rem 0 4rem;
+      }
+      p {
+        font-size: 1.5rem;
+        padding: 0rem 4rem 0 4rem;
+      }
+      .portada-btn {
         display: flex;
-        flex-direction: row;
-        .portada-title {
-            display: flex;
-            flex-direction: column;
-            width: 50rem;
-            h1 {
-                font-size: 4rem;
-                font-weight: 700;
-                padding: 0rem 4rem 0 4rem;
-            }
-            p {
-                font-size: 1.5rem;
-                padding: 0rem 4rem 0 4rem;
-            }
-            .portada-btn {
-                display: flex;
-                padding: 0rem 4rem 0 4rem;
-                button {
-                    font-size: 1rem;
-                    margin: 1rem;
-                    padding: 1rem;
-                }
-            }
+        padding: 0rem 4rem 2rem 4rem;
+        button {
+          font-size: 1rem;
+          margin: 1rem;
+          padding: 1rem;
         }
-        img {
-            position:absolute;
-            right: 0;
-            bottom: 0;
-            width: 20rem;
-            filter: drop-shadow(0 2px 5px rgba(0, 0, 0, 0.8))
-        }
+      }
     }
+    img {
+      position: absolute;
+      right: 0;
+      bottom: 0;
+      width: 20rem;
+      filter: drop-shadow(0 2px 5px rgba(0, 0, 0, 0.8));
+    }
+  }
 }
-
