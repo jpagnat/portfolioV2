@@ -14,6 +14,7 @@ function verFormularioContacto() {
 //Form
 
 const $form = document.getElementById("form");
+const $msg = document.getElementById("msg-enviado");
 
 $form.addEventListener("submit", handleSubmit);
 
@@ -30,7 +31,11 @@ async function handleSubmit(event) {
   });
 
   if (response.ok) {
+    $msg.classList.remove("hidden");
     this.reset();
-    alert("Gracias por el mensaje");
   }
+
+  setTimeout(function () {
+    $msg.classList.add("hidden");
+  }, 10000);
 }

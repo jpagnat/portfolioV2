@@ -1,14 +1,5 @@
 const proyectos = [
   {
-    title: "Portfolio v2",
-    img: "./img/proyectos/proyecto6.png",
-    description: "Proyecto Educativo",
-    back: "Versión 2 de mi portfolio personal",
-    page: "https://jpagnat.github.io/portfolio/",
-    github: "https://github.com/jpagnat/portfolio",
-    tecnologias: "HTML, CSS, SASS, JavaScript",
-  },
-  {
     title: "Nur Bier",
     img: "./img/proyectos/proyecto1.jpg",
     description: "Proyecto Educativo",
@@ -43,15 +34,6 @@ const proyectos = [
     page: "https://jpagnat.github.io/practiceI/",
     github: "https://github.com/jpagnat/practiceI",
     tecnologias: "HTML, CSS",
-  },
-  {
-    title: "Auth App",
-    img: "./img/proyectos/proyecto5.png",
-    description: "Proyecto Educativo",
-    back: "Login implementado en React + Firebase",
-    page: "https://jpagnat.github.io/auth-app/",
-    github: "https://github.com/jpagnat/auth-app",
-    tecnologias: "HTML, CSS, React, Firebase",
   },
 ];
 

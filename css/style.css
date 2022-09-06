@@ -258,6 +258,20 @@ form div textarea {
   font-size: 16px;
   resize: none; }
 
+#contact-btn {
+  margin-bottom: 1rem; }
+
+#msg-enviado {
+  background-color: var(--font-color);
+  color: var(--blanco);
+  padding: 1rem;
+  margin-bottom: 2rem;
+  text-align: center;
+  width: max-content; }
+
+.hidden {
+  display: none; }
+
 header {
   background-color: var(--blanco);
   min-height: 100vh;
