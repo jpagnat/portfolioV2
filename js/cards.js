@@ -1,5 +1,14 @@
 const proyectos = [
   {
+    title: "Card Interactive",
+    img: "./img/proyectos/proyecto7.png",
+    description: "Proyecto Frontend Mentor",
+    back: "Sitio web responsive con formulario dinamico y tarjeta actualizada en tiempo real",
+    page: "https://jpagnat.github.io/credit-card/",
+    github: "https://github.com/jpagnat/credit-card",
+    tecnologias: "HTML, CSS, SASS, JavaScript",
+  },
+  {
     title: "Nur Bier",
     img: "./img/proyectos/proyecto1.jpg",
     description: "Proyecto Educativo",
