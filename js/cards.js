@@ -1,6 +1,15 @@
 const proyectos = [
   {
-    title: "Card Interactive",
+    title: "Time Cards",
+    img: "./img/proyectos/proyecto8.png",
+    description: "Proyecto Frontend Mentor",
+    back: "Sitio web responsive. Consumo de JSON para renderizar tarjetas",
+    page: "https://jpagnat.github.io/time-cards/",
+    github: "https://github.com/jpagnat/time-cards",
+    tecnologias: "HTML, CSS, JavaScript, JSON",
+  },
+  {
+    title: "Credit Card Interactive",
     img: "./img/proyectos/proyecto7.png",
     description: "Proyecto Frontend Mentor",
     back: "Sitio web responsive con formulario dinamico y tarjeta actualizada en tiempo real",
