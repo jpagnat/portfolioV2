@@ -314,6 +314,10 @@ header {
       text-decoration: underline;
       text-decoration-color: var(--font-color-secondary); }
   header .portada {
+    background-image: url(../img/portada/portada.png);
+    background-repeat: no-repeat;
+    background-size: 160%;
+    background-position: left;
     display: flex;
     flex-direction: row; }
     header .portada .portada-title {

@@ -50,6 +50,10 @@ header {
     }
   }
   .portada {
+    background-image: url(../img/portada/portada.png);
+    background-repeat: no-repeat;
+    background-size: 160%;
+    background-position: left;
     display: flex;
     flex-direction: row;
     .portada-title {
